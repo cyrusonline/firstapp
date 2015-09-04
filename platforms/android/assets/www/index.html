@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.5.css" />
+
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div class="app">
+        <div data-role="page" id="home">
+           <header data-role="header">
+           <h1>First App</h1>
+           </header>
+           
+           <div data-role = "content">
+           <nav data-role = "navbar">
+           <ul>
+           <li><a href="#home" class = "ui-btn-active">Home</a></li>
+           <li><a href="#profile">Profile</a></li>
+           <li><a href="#download">Download</a></li>
+           </ul>                
+           </nav>
+           <img class="banner" src="img/banner.png">
+           <p>web page (or webpage) is a web document that is suitable for the World Wide Web and the web browser.
+
+A web browser displays a web page on a monitor or mobile device. The web page is what displays, but the term also refers to a computer file, usually written in HTML or comparable markup language. Web browsers coordinate the various web resource elements for the written web page, such as style sheets, scripts and images, to present the web page.
+
+Typical web pages provide hypertext that include a navigation bar or a sidebar menu to other web pages via hyperlinks, often referred to as links.</p>
+           
+           </div>
+           <footer data-role="footer">
+           
+           This is my foot
+           
+           </footer>
+        </div>
+        
+        <div data-role="page" id="profile">
+           <header data-role="header">
+           <h1>First App</h1>
+           </header>
+           
+           <div data-role = "content">
+            <nav data-role = "navbar">
+           <ul>
+           <li><a href="#home">Home</a></li>
+           <li><a href="#profile"  class = "ui-btn-active">Profile</a></li>
+           <li><a href="#download">Download</a></li>
+           </ul>                
+           </nav>
+           <p>A passionate web developer and professor with over 10 years in web industry.</p>
+           <p>Currently living and working in HKIED. The following is my home address</p>
+           
+           
+           <div class="map">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.935909811148!2d114.1943533!3d22.46904259999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340409071d2e8877%3A0x9062d0835c0a2b87!2z6aaZ5riv5pWZ6IKy5a246Zmi!5e0!3m2!1szh-TW!2shk!4v1441353593944" width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+           
+           </div>
+           <footer data-role="footer">
+           
+           This is my foot
+           
+           </footer>
+        </div>
+        <div data-role="page" id="download">
+           <header data-role="header">
+           <h1>First App</h1>
+           </header>
+           
+           <div data-role = "content">
+           <nav data-role = "navbar">
+           <ul>
+           <li><a href="#home">Home</a></li>
+           <li><a href="#profile"  >Profile</a></li>
+           <li><a href="#download" class = "ui-btn-active">Download</a></li>
+           </ul>                
+           </nav>
+           Sorry , there is nothing to download yet
+           
+           </div>
+           <footer data-role="footer">
+           
+           This is my foot
+           
+           </footer>
+        </div>
+        
+        
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+ 		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+ 		<script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+    </body>
+</html>
